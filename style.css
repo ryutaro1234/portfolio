@@ -1,96 +1,151 @@
+/*-------------------------------
+               BASE
+--------------------------------*/
+
 * {
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-#container{
-  width: 84%;
-  max-width: 1280px;
-  min-width: 512px;
-  margin: 0 auto;
+img {
+	width: auto;
+	max-height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #DDDDDD;
+}
+
+/*-------------------------------
+         LAYOUT MOBILE
+--------------------------------*/
+
+#container {
+	margin: auto;
+	max-width: 960px;
 }
 
 header {
-   position:relative;
-   height: 8rem;
-   background: #FFEEFF;
-   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
- }
-
-  header h1{
-    position: absolute;
-    top: 6rem;
-    left: 6rem;
-    font-size: 2rem;
-    color: #000000;
-  }
-
-nav {
-  padding: 1rem 3rem ;
-  background: #FFFFFF;
+	display: flex;
+	margin: auto;
+	height: 7rem;
+	border-image-width: auto;
+	box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+	background-color: clear;
+	color: 333333;
+}
+header h1 {
+	display: flex;
+	align-items: center;
+	top: 1.5rem;
+	left: 2rem;
+	font-size: 1.2rem;
 }
 
-  nav ul{
-    display: flex;
-    flex-direction: row;
-  }
-
-  nav ul li{
-    margin-right: 2rem;
-  }
-
-  nav ul li a {
-    color: #333333;
-  }
-
-main{
+#lists {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  width: 100%;
+  background-color: #444;
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+  opacity: 0.85;
+}
+#lists li {
+  width: 100%;
+  border-bottom: 1px solid #777;
+  list-style-type: none;
+  font-size: 80%;
+}
+#lists li:last-child {
+  border-bottom: none;
+}
+#lists a {
+  display: block;
+  padding: 1rem 0;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+}
+#lists a:hover {
+  background: #222;
 }
 
-  section{
-    flex: 1;
-    padding: 3rem;
-    background: #CCFF99;
-  }
-
-    article{
-      min-height: 8rem;
-      padding: 1rem;
-      margin-bottom: 2rem;
-      background: #FFF;
-    }
-
-.youtube {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9の場合*/
-    height: 0;
-    overflow: hidden;
+main {
+  display: flex;
+  flex-direction: column;
 }
-
-.youtube iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+article {
+  padding: 2rem;
+  text-align: justify;
+  font-size: 0.85rem;
+  background-color: white;
 }
-
-article img{
-    width:75%;
+aside {
+  padding: 2rem;
+  text-align: left;
+  font-size: 0.85rem;
+  background-color: #EEE;
 }
-
-  aside{
-    flex: 3;
-    padding: 3rem;
-    background: #DDD;
-  }
+article h1,
+article p,
+aside h1,
+aside p {
+  margin-bottom: 1rem;
+}
 
 footer {
-  padding: 2rem 3rem;
+  padding: 1.5rem;
   text-align: center;
-  background: #333;
-  color: white;
+  background-color: #333;
+  color:white;
 }
 
-.example{color: #FF0000}
+/*-------------------------------
+      LAYOUT PC (OverWrite)
+--------------------------------*/
+
+@media only screen and (min-width: 769px) {
+
+  header {
+    height: 7rem;
+  }
+  header h1 {
+    top: 2.5rem;
+    left: 0rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  #lists {
+    flex-direction: row;
+    justify-content: space-between;
+    top: 7rem;
+    left: 0;
+  }
+  #lists li {
+    flex:1;
+    border-bottom: none;
+    border-right: 1px solid #FFFFFF;
+  }
+  #lists li:last-child {
+    border-right: none;
+  }
+
+  main {
+    flex-direction: row;
+  }
+  article {
+    flex: 3;
+    padding: 3rem;
+    font-size: 1rem;
+  }
+  aside {
+    flex: 1;
+    padding: 3rem;
+    font-size: 1rem;
+  }
+
+}
