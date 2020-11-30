@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HOME</title>
+    <script src="hello.js" defer></script>
+  </head>
+
+<body>
+
+  <div id="container">
+
+    <header>
+      <h1>Home</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">links</a></li>
+        <li><a href="https://www.apple.com/jp/">Apple</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <section>
+
+        <article>
+
+          <h1>PとBR(改行の違い)</h1>
+            <h4>brなし</h4>
+              <P>
+                アイウエオかきくけこさしすせそたちつてと
+              </P>
+            <h4>brあり</h4>
+              <P>
+                アイウエオ<br>かきくけこさしすせそたちつてと
+              </P>
+
+        </article>
+
+        <article>
+
+          <h1>様々なリスト表示</h1>
+            <h4>UL：Unordered List</h4>
+              <ul>
+                <li class="example">項目1</li>
+                <li>項目2</li>
+                <li>項目3</li>
+              </ul>
+            <h4>OL：Ordered List</h4>
+              <ol>
+              <li class="example">項目1</li>
+              <li>項目2</li>
+              <li>項目3</li>
+            </ol>
+
+        </article>
+
+        <article>
+          <h1>おめシスはいいぞ</h1>
+
+		<div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/z4F2NNZ_A0c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		</div>
+            </iframe>
+        </article>
+
+        <article>
+          <h1>Sample Image</h1>
+            <img src="images/image01.jpg" width="480" alt="サンプル01">
+            <img src="images/image02.jpg" width="480" alt="サンプル02">
+            <img src="images/image03.jpg" width="480" alt="サンプル03">
+        </article>
+
+        <article>
+          <h1>表組み</h1>
+            <table  border="1" rules="all">
+               <thead>
+                    <tr>
+                         <th>商品</th>
+                         <th>価格</th>
+                    </tr>
+               </thead>
+               <tfoot>
+                    <tr>
+                         <td>合計金額</td>
+                         <td>250円</td>
+                    </tr>
+               </tfoot>
+               <tbody>
+                    <tr>
+                         <td>鉛筆</td>
+                         <td>150円</td>
+                    </tr>
+                    <tr>
+                         <td>消しゴム</td>
+                         <td>100円</td>
+                    </tr>
+               </tbody>
+            </table>
+        </article>
+
+        <article>
+          <h1>Googleで検索!!</h1>
+            <form action="http://www.google.com/search" method="get">
+              <label >Google: </label>
+              <input type="search" name="q">
+            </form>
+        </article>
+
+      </section>
+
+      <aside>
+        <h1>関連リンク</h1>
+          <ul>
+            <li><a href="http://www.apple.com/jp/">Apple</a></li>
+            <li><a href="https://www.youtube.com/">Youtube</a></li>
+          </ul>
+
+    </main>
+
+    <footer>
+      &copy; http://www.example.com
+    </footer>
+
+  </div>
+
+</body>
+
+</html>

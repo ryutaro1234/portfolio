@@ -1,0 +1,96 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#container{
+  width: 84%;
+  max-width: 1280px;
+  min-width: 512px;
+  margin: 0 auto;
+}
+
+header {
+   position:relative;
+   height: 8rem;
+   background: #FFEEFF;
+   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+ }
+
+  header h1{
+    position: absolute;
+    top: 6rem;
+    left: 6rem;
+    font-size: 2rem;
+    color: #000000;
+  }
+
+nav {
+  padding: 1rem 3rem ;
+  background: #FFFFFF;
+}
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav ul li{
+    margin-right: 2rem;
+  }
+
+  nav ul li a {
+    color: #333333;
+  }
+
+main{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+  section{
+    flex: 1;
+    padding: 3rem;
+    background: #CCFF99;
+  }
+
+    article{
+      min-height: 8rem;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      background: #FFF;
+    }
+
+.youtube {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9の場合*/
+    height: 0;
+    overflow: hidden;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+article img{
+    width:75%;
+}
+
+  aside{
+    flex: 3;
+    padding: 3rem;
+    background: #DDD;
+  }
+
+footer {
+  padding: 2rem 3rem;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+.example{color: #FF0000}
