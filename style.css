@@ -8,8 +8,8 @@
 }
 
 img {
-	width: auto;
-	max-height: 100%;
+	width: 100%;
+	max-height: auto;
 }
 
 body {
@@ -18,6 +18,10 @@ body {
   background-color: #DDDDDD;
 }
 
+#logo{
+		width: auto;
+	max-height: 100%;
+}
 /*-------------------------------
          LAYOUT MOBILE
 --------------------------------*/
