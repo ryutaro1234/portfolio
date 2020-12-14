@@ -7,17 +7,6 @@
   padding: 0;
 }
 
-.works {
-	width: 100%;
-	max-width: 350px;
-	height: auto;
-	max-height: 350px;
-}
-
-.samne{
-	max-width: 170px;
-	max-height: 170px;
-}
 
 body {
   font-family: sans-serif;
@@ -124,9 +113,21 @@ article {
 	font-size: 0.85rem;
 }
 
-#shogiban{
+.shogiban{
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
+}
+
+.works {
+	width: 100%;
+	max-width: 350px;
+	height: auto;
+	max-height: 350px;
+}
+
+.samune{
+	max-width: 150px;
+	max-height: 150px;
 }
 
 aside {
