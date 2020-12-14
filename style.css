@@ -13,6 +13,11 @@
 	height: auto;
 }
 
+.samne{
+	max-width: 170px;
+	max-height: 170px;
+}
+
 body {
   font-family: sans-serif;
   font-size: 16px;
@@ -36,7 +41,6 @@ a{
 
 header{
 	background-color: #ffbec8;
-	color: 333333;
 }
 
 #lists{
@@ -81,8 +85,7 @@ header {
 header h1 {
 	display: flex;
 	align-items: center;
-	top: 1.5rem;
-	left: 2rem;
+	color: 333333;
 	font-size: 1.2rem;
 }
 
@@ -120,6 +123,11 @@ article {
 	font-size: 0.85rem;
 }
 
+#shogiban{
+	display: flex;
+	justify-content: start;
+}
+
 aside {
 	padding: 2rem;
 	text-align: left;
@@ -141,8 +149,6 @@ footer {
   #lists {
     flex-direction: row;
     justify-content: space-between;
-    top: 7rem;
-    left: 0;
   }
   #lists li {
     flex:1;
