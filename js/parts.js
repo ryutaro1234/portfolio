@@ -14,3 +14,12 @@ $(function(){
             $("nav").slideUp("fast");
     })
 }) 
+
+$(function(){
+    $("nav").hover(function(){
+            $("nav:not(:animated)").slideDown("fast")
+        },
+        function(){
+            $("nav").slideUp("fast");
+    })
+}) 
