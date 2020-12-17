@@ -23,40 +23,6 @@ body {
 	width:100%;
 	height: auto;
 }
-
-a{
-	text-decoration: none;
-	color: #333333;
-}
-
-header{
-	background-color: #ffbec8;
-}
-
-#lists{
-	background-color: #ffbec8;
-}
-
-#lists a{
-	color: #333333;
-}
-
-#lists a:hover {
-	background: #ff91a5;
-}
-
-article{
-	background-color: clear
-}
-
-aside{
-	background-color: clear;
-}
-
-footer{
-	background-color: #ffbec8;
-	color: #333333;
-}
 /*-------------------------------
          LAYOUT MOBILE
 --------------------------------*/
@@ -66,12 +32,19 @@ footer{
 	max-width: 960px;
 }
 
-header {
+a{
+	text-decoration: none;
+	color: #333333;
+}
+
+header{
+	background-color: #ffbec8;
 	display: flex;
 	justify-content: start;
 	margin: auto;
 	height: 7rem;
 }
+
 header h1 {
 	display: flex;
 	align-items: center;
@@ -79,13 +52,14 @@ header h1 {
 	font-size: 1.2rem;
 }
 
-#lists {
+#lists{
+	background-color: #ffbec8;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	opacity: 0.85;
-
 }
+
 #lists li {
 	width: 100%;
 	border-bottom: 1px solid #ff91a5;
@@ -96,10 +70,19 @@ header h1 {
 #lists li:last-child {
 	border-bottom: none;
 }
+
+#lists a{
+	color: #333333;
+}
+
 #lists a {
 	display: block;
 	padding: 1rem 0;
 	text-align: center;
+}
+
+#lists a:hover {
+	background: #ff91a5;
 }
 
 main {
@@ -107,10 +90,25 @@ main {
 	flex-direction: column;
 }
 
-article {
+article{
+	background-color: clear;
 	padding: 2rem;
 	text-align: justify;
 	font-size: 0.85rem;
+}
+
+aside{
+	background-color: clear;
+	padding: 2rem;
+	text-align: left;
+	font-size: 0.85rem;
+}
+
+footer{
+	background-color: #ffbec8;
+	color: #333333;
+	padding: 1.5rem;
+	text-align: center;
 }
 
 .shogiban{
@@ -129,19 +127,6 @@ article {
 	max-width: 150px;
 	max-height: 150px;
 }
-
-aside {
-	padding: 2rem;
-	text-align: left;
-	font-size: 0.85rem;
-}
-
-footer {
-	padding: 1.5rem;
-	text-align: center;
-}
-
-
 /*-------------------------------
       LAYOUT PC (OverWrite)
 --------------------------------*/
