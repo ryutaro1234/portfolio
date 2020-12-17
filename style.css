@@ -56,7 +56,7 @@ header h1 {
 	background-color: #ffbec8;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 50%;
 	opacity: 0.85;
 }
 
