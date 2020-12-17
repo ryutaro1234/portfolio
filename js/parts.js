@@ -6,7 +6,7 @@ $(function(){
 });
 
 $(function(){
-    $("nav#nav").hide();
+    $("nav").hide();
     $("header").hover(function(){
             $("nav:not(:animated)").slideDown("fast")
         },
