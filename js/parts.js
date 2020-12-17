@@ -8,9 +8,9 @@ $(function(){
 $(function(){
     $("nav").hide();
     $("header").hover(function(){
-            $("nav:not(:animated)","header").slideDown("fast")
+            $("nav:not(:animated)").slideDown("fast")
         },
         function(){
-            $("nav","header").slideUp("fast");
+            $("nav").slideUp("fast");
     })
 }) 
