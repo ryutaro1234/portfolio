@@ -52,10 +52,6 @@ header h1 {
 	font-size: 1.2rem;
 }
 
-#nav {
-	display: none;
-}
-
 #lists{
 	background-color: #ffbec8;
 	display: flex;
