@@ -7,8 +7,8 @@ $(function(){
 
 $(function(){
     $('#header').hover(function(){
-        $("#nav:not(:animated)", this).slideDown();
+        $("#nav:not(:animated)", #nav).slideDown();
     }, function(){
-        $("#nav",this).slideUp();
+        $("#nav",#nav).slideUp();
     });
 });
