@@ -7,7 +7,7 @@ $(function(){
 
 $(function(){
     $("nav").hide();
-    $(".menu").hover(function(){
+    $("header").hover(function(){
             $("nav:not(:animated)").slideDown("fast")
         },
         function(){
