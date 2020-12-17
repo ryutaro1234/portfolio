@@ -6,9 +6,10 @@ $(function(){
 });
 
 $(function(){
-    $('#header').hover(function(){
-        $("#nav:not(:animated)", #nav).slideDown();
-    }, function(){
-        $("#nav",#nav).slideUp();
-    });
+    $('#header').hover(
+function()
+	{$("#nav:not(:animated)", #nav).slideDown(); },
+function()
+	{$("#nav",#nav).slideUp(); }
+    );
 });
