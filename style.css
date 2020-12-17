@@ -58,6 +58,7 @@ header h1 {
 	flex-direction: column;
 	width: 100%;
 	opacity: 0.85;
+	display: none;
 }
 
 #lists li {
