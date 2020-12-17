@@ -64,13 +64,15 @@ header h1 {
 
 #lists li {
 	width: 100%;
-	border-bottom: 1px solid #ff91a5;
 	list-style-type: none;
 	font-size: 80%;
+	flex:1;
+	border-bottom: none;
+	border-right: 1px solid #ff91a5;
 }
 
 #lists li:last-child {
-	border-bottom: none;
+    border-right: none;
 }
 
 #lists a {
@@ -124,15 +126,6 @@ footer{
 --------------------------------*/
 
 @media only screen and (min-width: 769px) {
-
-  #lists li {
-    flex:1;
-    border-bottom: none;
-    border-right: 1px solid #ff91a5;
-  }
-  #lists li:last-child {
-    border-right: none;
-  }
 
   main {
     flex-direction: row;
