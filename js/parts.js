@@ -6,10 +6,11 @@ $(function(){
 });
 
 $(function(){
-    $('#header').hover(
-function()
-	{$("#nav:not(:animated)", #nav).slideDown(); },
-function()
-	{$("#nav",#nav).slideUp(); }
-    );
-});
+    $("nav#nav").hide();
+    $("header").hover(function(){
+            $("nav:not(:animated)").slideDown("fast")
+        },
+        function(){
+            $("nav").slideUp("fast");
+    })
+}) 
