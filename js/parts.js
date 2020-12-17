@@ -7,16 +7,7 @@ $(function(){
 
 $(function(){
     $("nav").hide();
-    $("header").hover(function(){
-            $("nav:not(:animated)").slideDown("fast")
-        },
-        function(){
-            $("nav").slideUp("fast");
-    })
-}) 
-
-$(function(){
-    $("nav").hover(function(){
+    $("header","nav").hover(function(){
             $("nav:not(:animated)").slideDown("fast")
         },
         function(){
