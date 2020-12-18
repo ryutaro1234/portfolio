@@ -1,7 +1,3 @@
-/*-------------------------------
-               BASE
---------------------------------*/
-
 * {
   margin: 0;
   padding: 0;
@@ -23,9 +19,6 @@ body {
 	width:100%;
 	height: auto;
 }
-/*-------------------------------
-         LAYOUT MOBILE
---------------------------------*/
 
 #container {
 	margin: auto;
@@ -120,16 +113,4 @@ footer{
 .samune{
 	max-width: 150px;
 	max-height: 150px;
-}
-/*-------------------------------
-      LAYOUT PC (OverWrite)
---------------------------------*/
-
-@media only screen and (min-width: 769px) {
-  article {
-    flex: 3;
-    padding: 3rem;
-    font-size: 1rem;
-  }
-
 }
