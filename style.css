@@ -95,6 +95,10 @@ footer{
 	background-color: #ffbec8;
 }
 
+a{
+	color: #333333;
+}
+
 .shogiban{
 	display: flex;
 	justify-content: flex-start;
