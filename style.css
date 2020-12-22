@@ -45,7 +45,7 @@ header h1 {
 	align-items: center;
 }
 
-nav{
+ul{
 
 	display: flex;
 	flex-direction: row;
@@ -55,7 +55,7 @@ nav{
 	opacity: 0.85;
 }
 
-nav li {
+ul li {
 	font-size: 80%;
 	list-style-type: none;
 	border-right: 1px solid #ff91a5;
@@ -63,17 +63,17 @@ nav li {
 	width: 100%;
 }
 
-nav li:last-child {
+ul li:last-child {
     border-right: none;
 }
 
-nav a {
+ul a {
 	padding: 1rem 0;
 	text-align: center;
 	display: block;
 }
 
-nav a:hover {
+ul a:hover {
 	background: #ff91a5;
 }
 
