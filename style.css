@@ -45,7 +45,7 @@ header h1 {
 	align-items: center;
 }
 
-#lists{
+nav{
 
 	display: flex;
 	flex-direction: row;
@@ -55,7 +55,7 @@ header h1 {
 	opacity: 0.85;
 }
 
-#lists li {
+nav li {
 	font-size: 80%;
 	list-style-type: none;
 	border-right: 1px solid #ff91a5;
@@ -63,17 +63,17 @@ header h1 {
 	width: 100%;
 }
 
-#lists li:last-child {
+nav li:last-child {
     border-right: none;
 }
 
-#lists a {
+nav a {
 	padding: 1rem 0;
 	text-align: center;
 	display: block;
 }
 
-#lists a:hover {
+nav a:hover {
 	background: #ff91a5;
 }
 
