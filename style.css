@@ -101,6 +101,7 @@ article{
 }
 
 .works {
+	display: flex;
 	justify-content: center;
 }
 
