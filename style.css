@@ -100,11 +100,6 @@ article{
 	height: auto;
 }
 
-.works {
-	display: flex;
-	justify-content: center;
-}
-
 .works img{
 	width: 100%;
 	max-width: 350px;
