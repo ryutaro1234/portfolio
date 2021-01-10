@@ -7,8 +7,8 @@
 body {
 	font-family: sans-serif;
 	font-size: 16px;
-	color: #333333;
-	background-color: #ffffd2;
+	color: #ffffff;
+	background-color: #282828;
 }
 
 #main-image{
@@ -23,7 +23,7 @@ body {
 
 a{
 	text-decoration: none;
-	color: #333333;
+	color: #ffffff;
 }
 
 header{
@@ -31,7 +31,7 @@ header{
 	display: flex;
 	justify-content: start;
 	height: 7rem;
-	background-color: #ffbec8;
+	background-color: #535353;
 }
 
 #logo{
@@ -51,14 +51,14 @@ ul{
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 100%;
-	background-color: #ffbec8;
+	background-color: #535353;
 	opacity: 0.85;
 }
 
 ul li {
 	font-size: 80%;
 	list-style-type: none;
-	border-right: 1px solid #ff91a5;
+	border-right: 1px solid #282828;
 	flex:1;
 	width: 100%;
 }
@@ -74,7 +74,7 @@ ul a {
 }
 
 ul a:hover {
-	background: #ff91a5;
+	background: #535353;
 }
 
 main {
@@ -113,5 +113,5 @@ article{
 footer{
 	padding: 1.5rem;
 	text-align: center;
-	background-color: #ffbec8;
+	background-color: #535353;
 }
