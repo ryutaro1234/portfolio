@@ -89,6 +89,10 @@ article{
 	background-color: clear;
 }
 
+.shogiban{
+	justify-content: flex-center;
+}
+
 .samune{
 	width: 100%;
 	max-width: 150px;
