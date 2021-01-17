@@ -90,6 +90,7 @@ article{
 }
 
 .shogiban{
+	display: flex;
 	justify-content: flex-center;
 }
 
