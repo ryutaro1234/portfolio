@@ -4,6 +4,9 @@
 	color: #333333;
 }
 
+html{
+	scroll-behavior: smooth;
+}
 
 
 /* ----- ここから文字サイズ設定 ----- */
@@ -61,7 +64,7 @@ body {
 	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 1.6;
-	background-color: #fffaf0
+	background: linear-gradient(-135deg,  #ff8e8e, #e1eec3);
 }
 
 #container {
@@ -75,7 +78,7 @@ header{
 	align-items: center;
 	justify-content: flex-start;
 	position: fixed;
-	background-color: #fffaf0;
+	background:rgba(255,235,200,0.20);
 }
 header img{
 	width: 3rem;
@@ -97,7 +100,7 @@ main{
 main h1{
 	margin-top: 100px;
 	letter-spacing: 10px;
-	color: #FF8800
+	color: #FF8800;
 }
 
 #main-image{
@@ -130,6 +133,17 @@ main h1{
 	text-align: center;
 }
 
+.slide:hover{
+	color: #FF8800;
+	border-bottom: 0.25px solid;
+	border-color: #FF8800;
+	transition: .3s;
+}
+
+.hide-area{
+	display: none;
+}
+
 #works-finish{
 	margin-bottom: 100px;
 }
@@ -137,7 +151,9 @@ main h1{
 footer{
 	padding: 1.5rem;
 	text-align: center;
-	background-color: #ffd6ad;
+	border-top: 0.25px solid;
+	border-color: #333333;
+	border-radius: 8px;/* 角丸 */
 }
 
 footer p {
