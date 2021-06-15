@@ -196,3 +196,12 @@ footer{
 footer p {
 	margin: 0;
 }
+
+/* スマートフォン */
+@media screen and (max-width:768px) {
+	
+	.time-machine{
+		flex-direction: column;
+	}
+
+}
