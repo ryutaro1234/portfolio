@@ -141,7 +141,7 @@ main h1{
 	margin-bottom: 100px;
 }
 
-#works h3{
+#works h2{
 	letter-spacing: 5px;
 	text-align: center;
 	color: #FF8800;
@@ -156,6 +156,23 @@ main h1{
 
 .hide-area{
 	display: none;
+}
+
+#works h4{
+	margin-top: 50px;
+	color: #FF8800;
+}
+
+.time-machine{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.time-machine img{
+	max-width: 40%;
+	height: auto;
 }
 
 footer{
