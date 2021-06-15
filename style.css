@@ -93,13 +93,6 @@ header h6{
 	letter-spacing: 8px;
 }
 
-.hover:hover{
-	color: #FF8800;
-	border-bottom: 0.25px solid;
-	border-color: #FF8800;
-	transition: .3s;
-}
-
 main{
 	display: flex;
 	flex-direction: column;
@@ -137,8 +130,18 @@ main h1{
 	margin-left: 10px;
 }
 
+.links:hover{
+	color: #FF8800;
+	border-bottom: 0.25px solid;
+	border-color: #FF8800;
+	transition: .3s;
+}
+
+#works article{
+	margin-bottom: 100px;
+}
+
 #works h3{
-	margin-top: 100px;
 	letter-spacing: 5px;
 	text-align: center;
 	color: #FF8800;
@@ -156,7 +159,6 @@ main h1{
 }
 
 footer{
-	margin-top: 100px;
 	padding: 1.5rem;
 	text-align: center;
 	border-top: 0.25px solid;
