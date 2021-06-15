@@ -1,5 +1,5 @@
+/*クリックすると表示されるボタン*/
 
-//クリックすると表示されるボタン
 $(function(){
 	$(".slide").click(function(){
 		var $this = $(this);

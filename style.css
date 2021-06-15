@@ -64,7 +64,7 @@ body {
 	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 1.6;
-	background: linear-gradient(-135deg,  #ff8e8e, #e1eec3);
+	background: linear-gradient(-135deg,  #ffa3a3, #ffffef);
 }
 
 #container {
@@ -90,6 +90,13 @@ header h6{
 	text-decoration: none;
 	padding-left: 10px;
 	letter-spacing: 8px;
+}
+
+.hover:hover{
+	color: #FF8800;
+	border-bottom: 0.25px solid;
+	border-color: #FF8800;
+	transition: .3s;
 }
 
 main{
@@ -130,7 +137,10 @@ main h1{
 }
 
 #works h3{
+	margin-top: 100px;
+	letter-spacing: 5px;
 	text-align: center;
+	color: #FF8800;
 }
 
 .slide:hover{
@@ -144,11 +154,8 @@ main h1{
 	display: none;
 }
 
-#works-finish{
-	margin-bottom: 100px;
-}
-
 footer{
+	margin-top: 100px;
 	padding: 1.5rem;
 	text-align: center;
 	border-top: 0.25px solid;
