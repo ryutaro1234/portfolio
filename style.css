@@ -181,7 +181,7 @@ main h1{
 }
 
 .time-machine img{
-	max-width: 40%;
+	width: 40%;
 	height: auto;
 }
 
@@ -197,11 +197,14 @@ footer p {
 	margin: 0;
 }
 
+/* safari */
+
 /* スマートフォン */
 @media screen and (max-width:768px) {
 	
 	.time-machine{
 		flex-direction: column;
+		margin-bottom: 20px;
 	}
 
 }
