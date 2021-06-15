@@ -147,6 +147,10 @@ main h1{
 	color: #FF8800;
 }
 
+#works img{
+	max-width: 100%;
+}
+
 .slide:hover{
 	color: #FF8800;
 	border-bottom: 0.25px solid;
