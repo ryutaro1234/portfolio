@@ -173,6 +173,21 @@ nav ul li a{
 	max-width: 100%;
 }
 
+.slide:hover{
+	color: #FF8800;
+	transition: .3s;
+}
+
+.toggle-lists{
+	font-size: 118%;
+	font-weight: bold;
+	color: #FF8800;
+}
+
+.hide-area{
+	display: none;
+}
+
 .time-machine{
 	display: flex;
 	flex-direction: row;
