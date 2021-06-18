@@ -20,26 +20,35 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 28px;
+	color: #FF8800;
+	letter-spacing: 10px;
 }
 
 h2 {
 	font-size: 24px;
+	color: #FF8800;
+	letter-spacing: 5px;
 }
 
 h3 {
 	font-size: 18px;
+	color: #FF8800;
 }
 
 h4 {
 	font-size: 16px;
+	color: #FF8800;
+	margin-top: 50px;
 }
 
 h5 {
 	font-size: 14px;
+	color: #FF8800;
 }
 
 h6 {
 	font-size: 14px;
+	color: #FF8800;
 }
 
 p, blockquote, ul, ol, dl, li, table, pre {
@@ -65,32 +74,15 @@ body {
 	font-family: sans-serif;
 	font-size: 14px;
 	line-height: 1.6;
-	background: linear-gradient(-135deg,  #ffa3a3, #ffffef);
 }
 
 #container {
 	margin: auto;
+	margin-top: 4rem;
 	max-width: 960px;
-}
-
-header{
-	height: 3rem;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	position: fixed;
-	background:rgba(255,235,200,0.20);
-}
-header img{
-	width: 3rem;
-	height: auto;
-}
-
-header h6{
-	margin: 0;
-	text-decoration: none;
-	padding-left: 10px;
-	letter-spacing: 8px;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.20);
+	border-radius: 20px;
+	background: rgba(255,255,255,0.70);
 }
 
 main{
@@ -98,26 +90,55 @@ main{
 	flex-direction: column;
 	align-items: center;
 }
-main h1{
-	margin-top: 100px;
-	letter-spacing: 10px;
-	color: #FF8800;
+
+header{
+	height: 4rem;
+	margin: 2rem;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+header h6{
+	margin: 0;
+	color: #333333;
+	padding-left: 10px;
+	letter-spacing: 6px;
+}
+
+nav{
+	text-align: center;
+	background: linear-gradient(10deg,  #FFD1A3, #FFEFE0 40%, #FFFFFF);
+	border-radius: 20px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li{
+	margin-top: 36px;
+	display: flex;
+	flex-direction: column;
+}
+
+nav ul li a{
+	font-size: 138%;
+	font-weight: bold;
+	letter-spacing: 8px;
 }
 
 #main-image{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row-reverse;
 	align-items: center;
-	margin-top: 80px;
 }
-
-#main-image h1{
-	margin-top: 50px;
-}
-
 #profile{
-	display: flex;
-	flex-direction: row;
+	text-align: start;
+}
+
+#profile h3{
+	color: #333333;
 }
 
 #myname{
@@ -127,14 +148,17 @@ main h1{
 }
 
 #myname p{
+	margin: 0;
 	margin-left: 10px;
 }
 
 .links:hover{
 	color: #FF8800;
-	border-bottom: 0.25px solid;
-	border-color: #FF8800;
-	transition: .3s;
+	transition: 0.30s;
+}
+
+#works{
+	margin: 1rem;
 }
 
 #works article{
@@ -142,9 +166,7 @@ main h1{
 }
 
 #works h2{
-	letter-spacing: 5px;
 	text-align: center;
-	color: #FF8800;
 }
 
 #works img{
@@ -168,11 +190,6 @@ main h1{
 	display: none;
 }
 
-#works h4{
-	margin-top: 50px;
-	color: #FF8800;
-}
-
 .time-machine{
 	display: flex;
 	flex-direction: row;
@@ -185,23 +202,28 @@ main h1{
 	height: auto;
 }
 
+#profile h3{
+	margin-bottom: 24px;
+	color: #FF8800;
+}
+
+#profile ul li{
+	margin-bottom: 24px;
+}
+
 footer{
-	padding: 1.5rem;
+	padding: 1rem;
 	text-align: center;
-	border-top: 0.25px solid;
-	border-color: #333333;
-	border-radius: 8px;/* 角丸 */
 }
-
-footer p {
-	margin: 0;
-}
-
-/* safari */
 
 /* スマートフォン */
 @media screen and (max-width:768px) {
 	
+	#main-image h1{
+	margin-top: 50px;
+}
+	
+
 	.time-machine{
 		flex-direction: column;
 		margin-bottom: 20px;
@@ -211,5 +233,4 @@ footer p {
 		width: 100%;
 		height: auto;
 	}
-
 }
