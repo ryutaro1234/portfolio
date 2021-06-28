@@ -209,6 +209,22 @@ nav ul li a{
 	margin-bottom: 24px;
 }
 
+.mail{
+	list-style-image: url("images/list-style-images/mail.png");
+}
+
+.youtube{
+	list-style-image: url("images/list-style-images/youtube.png");
+}
+
+.twitter{
+	list-style-image: url("images/list-style-images/twitter.png");
+}
+
+.music{
+	list-style-image: url("images/list-style-images/music.png");
+}
+
 footer{
 	padding: 1rem;
 	text-align: center;
