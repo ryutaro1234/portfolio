@@ -162,11 +162,16 @@ nav ul li a{
 }
 
 #works article{
+	margin: 2rem;
 	margin-bottom: 100px;
 }
 
 #works h2{
 	text-align: center;
+}
+
+.color-gray{
+	color: #333333;
 }
 
 #works img{
@@ -232,17 +237,17 @@ footer{
 
 /* スマートフォン */
 @media screen and (max-width:768px) {
-	
+
 	#main-image h1{
 	margin-top: 50px;
 }
-	
+
 
 	.time-machine{
 		flex-direction: column;
 		margin-bottom: 20px;
 	}
-	
+
 		.time-machine img{
 		width: 100%;
 		height: auto;
