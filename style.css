@@ -38,7 +38,6 @@ h3 {
 h4 {
 	font-size: 16px;
 	color: #FF8800;
-	margin-top: 50px;
 }
 
 h5 {
@@ -78,7 +77,6 @@ body {
 
 #container {
 	margin: auto;
-	margin-top: 4rem;
 	max-width: 960px;
 	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.20);
 	border-radius: 20px;
@@ -159,11 +157,13 @@ nav ul li a{
 
 #works{
 	margin: 1rem;
+	text-align: center;
 }
 
 #works article{
 	margin: 2rem;
 	margin-bottom: 100px;
+	text-align: left;
 }
 
 #works h2{
@@ -178,19 +178,28 @@ nav ul li a{
 	max-width: 100%;
 }
 
+.slide{
+	list-style-type: circle;
+}
+
 .slide:hover{
 	color: #FF8800;
-	transition: .3s;
+	transition: 0.30s;
 }
 
 .toggle-lists{
-	font-size: 118%;
+	font-size: 128%;
 	font-weight: bold;
 	color: #FF8800;
 }
 
 .hide-area{
 	display: none;
+}
+
+.coulumn{
+	display: flex;
+	flex-direction: column;
 }
 
 .time-machine{
@@ -238,18 +247,23 @@ footer{
 /* スマートフォン */
 @media screen and (max-width:768px) {
 
-	#main-image h1{
+
+#main-image{
+	flex-direction: column;
+}
+
+#main-image h1{
 	margin-top: 50px;
 }
 
+.time-machine{
+	flex-direction: column;
+	margin-bottom: 20px;
+}
 
-	.time-machine{
-		flex-direction: column;
-		margin-bottom: 20px;
-	}
+.time-machine img{
+	width: 100%;
+	height: auto;
+}
 
-		.time-machine img{
-		width: 100%;
-		height: auto;
-	}
 }
