@@ -1,4 +1,4 @@
-/* ふわっとフェードインするエフェクト */
+/* ふわっとフェードインするエフェクト https://illbenet.jp/view/js-scroll_fade */
 
 $(function(){
     load_effect();
@@ -6,7 +6,7 @@ $(function(){
         scroll_effect();
     });
 });
- 
+
 //ふわっとロード
 function load_effect(){
     var tt = $(window).scrollTop();
@@ -24,7 +24,7 @@ function load_effect(){
         }
     });
 }
- 
+
 //ふわっとスクロール
 function scroll_effect(){
     var tt = $(window).scrollTop();
