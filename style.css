@@ -180,7 +180,10 @@ nav ul li a{
 }
 
 .slide{
-	list-style-type: circle;
+	margin-top: 1rem;
+	font-size: 108%;
+	list-style-type: square;
+
 }
 
 .slide:hover{
@@ -236,6 +239,17 @@ nav ul li a{
 	list-style-image: url("./images/list-style-images/twitter.png");
 }
 
+.school{
+	list-style-image: url("./images/list-style-images/school.png");
+}
+
+.graphic{
+	list-style-image: url("./images/list-style-images/graphic.png");
+}
+
+.music{
+	list-style-image: url("./images/list-style-images/music.png");
+}
 
 footer{
 	padding: 1rem;
