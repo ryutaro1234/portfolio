@@ -179,13 +179,6 @@ nav ul li a{
 	max-width: 100%;
 }
 
-.slide{
-	margin-top: 1rem;
-	font-size: 108%;
-	list-style-type: square;
-
-}
-
 .slide:hover{
 	color: #FF8800;
 	transition: 0.30s;
