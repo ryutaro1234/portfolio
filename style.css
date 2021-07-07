@@ -106,8 +106,9 @@ header h6{
 
 nav{
 	text-align: center;
-	background: linear-gradient(10deg,  #FFD1A3, #FFEFE0 40%, #FFFFFF);
+	background: rgba(255, 255, 255, 0.80);
 	border-radius: 20px;
+	z-index: 1;
 }
 
 nav ul {
@@ -166,7 +167,7 @@ nav ul li a{
 	text-align: left;
 }
 
-#works h2{
+#works h3{
 	text-align: center;
 }
 
@@ -224,20 +225,17 @@ nav ul li a{
 }
 
 .mail{
-	list-style-image: url("images/list-style-images/mail.png");
+	list-style-image: url("./images/list-style-images/mail.png");
 }
 
 .youtube{
-	list-style-image: url("images/list-style-images/youtube.png");
+	list-style-image: url("./images/list-style-images/youtube.png");
 }
 
 .twitter{
-	list-style-image: url("images/list-style-images/twitter.png");
+	list-style-image: url("./images/list-style-images/twitter.png");
 }
 
-.music{
-	list-style-image: url("images/list-style-images/music.png");
-}
 
 footer{
 	padding: 1rem;

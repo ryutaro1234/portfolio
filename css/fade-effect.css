@@ -1,7 +1,7 @@
 /* スクロールエフェクト https://illbenet.jp/view/js-scroll_fade */
-.scroll-fade{opacity: 0; transition: all 2s/*処理にかかる時間*/;}
-.scroll-up{opacity: 0; transform: translateY(100px)/*スクロールアップする距離*/; transition: all 2s/*処理にかかる時間*/;}
+.scroll-fade{opacity: 0; transition: all 0.70s/*処理にかかる時間*/;}
+.scroll-up{opacity: 0; transform: translateY(100px)/*スクロールアップする距離*/; transition: all 0.50s/*処理にかかる時間*/;}
 .scroll-up.done, .scroll-fade.done{opacity : 1; transform : translate(0, 0);}
-.load-fade {opacity : 0; transition : all 2s/*処理にかかる時間*/;}
-.load-up{opacity: 0; transform: translateY(100px)/*スクロールアップする距離*/; transition: all 2s/*処理にかかる時間*/;}
+.load-fade {opacity : 0; transition : all 1s/*処理にかかる時間*/;}
+.load-up{opacity: 0; transform: translateY(100px)/*スクロールアップする距離*/; transition: all 1s/*処理にかかる時間*/;}
 .load-up.done, .load-fade.done{opacity : 1; transform : translate(0, 0);}
